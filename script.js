@@ -7,6 +7,7 @@ async function getContactData() {
 
 async function init() {
   await getContactData();
+  load();
   renderContacts();
 }
 
@@ -28,6 +29,7 @@ function renderContacts() {
 
 function deleteEntry(entry) {
   contacts.splice(entry, 1);
+  save();
   renderContacts();
 }
 
@@ -46,6 +48,7 @@ function addEntry() {
 
   contacts.push(newEntry);
   clearInput();
+  save();
   renderContacts();
 }
 
@@ -59,4 +62,16 @@ function clearInput() {
   nachname.value = "";
   email.value = "";
   phone.value = "";
+}
+
+function save(){
+    let contactString = JSON.stringify(contacts);
+    localStorage.setItem('contacts', contactString);
+}
+
+function load(){
+    let contactString = localStorage.getItem('contacts');
+    if(contactString){
+        contacts = JSON.parse(contactString);
+    }
 }

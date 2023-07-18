@@ -21,35 +21,14 @@ function renderContacts() {
                 <span>${contacts[i].vorname} ${contacts[i].nachname}</span>
                 <span>${contacts[i].email}</span>
                 <span>${contacts[i].phone}</span>
-                <img onclick="deleteEntry(${i})" class="trash-bin" src="./img/delete.png" alt="">
+                <div class="actionBtns">
+                  <img onclick="editEntry(${i})" class="edit-btn" src="./img/pencil.png" alt="">
+                  <img onclick="deleteEntry(${i})" class="trash-bin" src="./img/delete.png" alt="">
+                </div>
+
             </div>
         `;
   }
-}
-
-function deleteEntry(entry) {
-  contacts.splice(entry, 1);
-  save();
-  renderContacts();
-}
-
-function addEntry() {
-  let vorname = document.getElementById("vorname").value;
-  let nachname = document.getElementById("nachname").value;
-  let email = document.getElementById("email").value;
-  let phone = document.getElementById("phone").value;
-
-  let newEntry = {
-    vorname: vorname,
-    nachname: nachname,
-    email: email,
-    phone: phone,
-  };
-
-  contacts.push(newEntry);
-  clearInput();
-  save();
-  renderContacts();
 }
 
 function clearInput() {
@@ -64,14 +43,3 @@ function clearInput() {
   phone.value = "";
 }
 
-function save(){
-    let contactString = JSON.stringify(contacts);
-    localStorage.setItem('contacts', contactString);
-}
-
-function load(){
-    let contactString = localStorage.getItem('contacts');
-    if(contactString){
-        contacts = JSON.parse(contactString);
-    }
-}

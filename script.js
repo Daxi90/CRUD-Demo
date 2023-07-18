@@ -43,3 +43,7 @@ function clearInput() {
   phone.value = "";
 }
 
+function closeSidebar(){
+  let sidebar = document.getElementById('sidebar');
+  sidebar.classList.remove('showMenu');
+}

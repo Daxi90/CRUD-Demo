@@ -25,7 +25,6 @@ function renderContacts() {
                   <img onclick="editEntry(${i})" class="edit-btn" src="./img/pencil.png" alt="">
                   <img onclick="deleteEntry(${i})" class="trash-bin" src="./img/delete.png" alt="">
                 </div>
-
             </div>
         `;
   }

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: 'Raleway', sans-serif;
   background-color: #f4a15d;
   overflow-x: hidden;
 }
@@ -123,6 +123,14 @@ input {
   top: 15px;
   right: 15px;
   cursor: pointer;
+}
+
+.editSaveBtn{
+  background-color: #f4a15d;
+  border: none;
+  color: #36393a;
+  padding: 4px 8px;
+  border-radius: 5px;
 }
 
 @media (max-width: 800px) {

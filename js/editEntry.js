@@ -10,7 +10,7 @@ function editEntry(entry){
         <input placeholder="Nachname" id="editNachname" type="text" class="w-100">
         <input placeholder="Email" id="editMail" type="email" class="w-100">
         <input placeholder="Phone" id="editPhone" type="text" class="w-100">
-        <button onclick="saveEditedEntry(${entry})">Speichern</button>
+        <button class="editSaveBtn" onclick="saveEditedEntry(${entry})">Speichern</button>
     `;
 
     let vorname = document.getElementById('editVorname');

@@ -16,15 +16,17 @@
   </head>
   <body onload="init()">
     <header>
-      <span>CRUD APP</span>
-      <input placeholder="Vorname" id="vorname" type="text">
-      <input placeholder="Nachname"  id="nachname" type="text">
-      <input placeholder="Email"  id="email" type="email">
-      <input placeholder="Phone"  id="phone" type="text">
-      <button onclick="addEntry()">Absenden</button>
+      <span id="headerName">CRUD APP</span>
+      <div class="form">
+        <input placeholder="Vorname" id="vorname" type="text" />
+        <input placeholder="Nachname" id="nachname" type="text" />
+        <input placeholder="Email" id="email" type="email" />
+        <input placeholder="Phone" id="phone" type="text" />
+        <button onclick="addEntry()">Absenden</button>
+      </div>
     </header>
     <section id="contactsContainer">
-        <!-- Rendere Content -->
+      <!-- Rendere Content -->
     </section>
   </body>
 </html>

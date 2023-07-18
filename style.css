@@ -12,6 +12,7 @@ header{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0px 5px 4px -3px #0C2427;
+    display: flex;
 }
 
 #contactsContainer{
@@ -41,4 +42,15 @@ header{
     -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
     cursor: pointer;
+}
+
+#headerName{
+    margin-right: 16px;
+}
+
+.form{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

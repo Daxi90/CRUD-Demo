@@ -2,4 +2,43 @@ body{
     margin:0;
     box-sizing: border-box;
     font-family: 'Gloria Hallelujah', cursive;
+    background-color: #F4A15D;
+}
+
+header{
+    background-color:#36393A;
+    color: #F4A15D;
+    padding: 16px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 5px 4px -3px #0C2427;
+}
+
+#contactsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.contactCard{
+    width: 250px;
+    height: 200px;
+    background-color: #0C2427;
+    color: #F4A15D;
+    padding: 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trash-bin{
+    margin-top: 8px;
+    height: 20px;
+    width: 20px;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    cursor: pointer;
 }

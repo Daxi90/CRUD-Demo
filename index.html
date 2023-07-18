@@ -14,7 +14,17 @@
     <script src="./script.js"></script>
     <title>CRUD Demo App</title>
   </head>
-  <body>
-    <h1>Test</h1>
+  <body onload="init()">
+    <header>
+      <span>CRUD APP</span>
+      <input placeholder="Vorname" id="vorname" type="text">
+      <input placeholder="Nachname"  id="nachname" type="text">
+      <input placeholder="Email"  id="email" type="email">
+      <input placeholder="Phone"  id="phone" type="text">
+      <button onclick="addEntry()">Absenden</button>
+    </header>
+    <section id="contactsContainer">
+        <!-- Rendere Content -->
+    </section>
   </body>
 </html>

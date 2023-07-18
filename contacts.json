@@ -1,0 +1,92 @@
+[
+    {
+        "vorname": "Max",
+        "nachname": "Mustermann",
+        "email": "max.mustermann@example.com",
+        "phone": "1234567890"
+    },
+    {
+        "vorname": "Erika",
+        "nachname": "Musterfrau",
+        "email": "erika.musterfrau@example.com",
+        "phone": "0987654321"
+    },
+    {
+        "vorname": "Hans",
+        "nachname": "Schmidt",
+        "email": "hans.schmidt@example.com",
+        "phone": "9876543210"
+    },
+    {
+        "vorname": "Lisa",
+        "nachname": "Müller",
+        "email": "lisa.mueller@example.com",
+        "phone": "1029384756"
+    },
+    {
+        "vorname": "Thomas",
+        "nachname": "Schneider",
+        "email": "thomas.schneider@example.com",
+        "phone": "6758493021"
+    },
+    {
+        "vorname": "Sarah",
+        "nachname": "Fischer",
+        "email": "sarah.fischer@example.com",
+        "phone": "8372819405"
+    },
+    {
+        "vorname": "Markus",
+        "nachname": "Weber",
+        "email": "markus.weber@example.com",
+        "phone": "2938475601"
+    },
+    {
+        "vorname": "Julia",
+        "nachname": "Wagner",
+        "email": "julia.wagner@example.com",
+        "phone": "5061728394"
+    },
+    {
+        "vorname": "Andreas",
+        "nachname": "Becker",
+        "email": "andreas.becker@example.com",
+        "phone": "1928374650"
+    },
+    {
+        "vorname": "Christine",
+        "nachname": "Hoffmann",
+        "email": "christine.hoffmann@example.com",
+        "phone": "4758693021"
+    },
+    {
+        "vorname": "Alexander",
+        "nachname": "Schulz",
+        "email": "alexander.schulz@example.com",
+        "phone": "2846357019"
+    },
+    {
+        "vorname": "Nicole",
+        "nachname": "Klein",
+        "email": "nicole.klein@example.com",
+        "phone": "8392017465"
+    },
+    {
+        "vorname": "Stefan",
+        "nachname": "Lange",
+        "email": "stefan.lange@example.com",
+        "phone": "2938475610"
+    },
+    {
+        "vorname": "Jennifer",
+        "nachname": "Koch",
+        "email": "jennifer.koch@example.com",
+        "phone": "5061728394"
+    },
+    {
+        "vorname": "Martin",
+        "nachname": "Richter",
+        "email": "martin.richter@example.com",
+        "phone": "1928374650"
+    }
+]

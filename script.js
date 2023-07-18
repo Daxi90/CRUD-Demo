@@ -17,7 +17,7 @@ function renderContacts() {
 
   for (let i = 0; i < contacts.length; i++) {
     container.innerHTML += `
-            <div class="contactCard">
+            <div class="contactCard" draggable="true">
                 <span>${contacts[i].vorname} ${contacts[i].nachname}</span>
                 <span>${contacts[i].email}</span>
                 <span>${contacts[i].phone}</span>

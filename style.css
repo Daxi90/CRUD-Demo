@@ -145,3 +145,18 @@ input {
   }
   
 }
+
+#trashBin {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50vw;
+  bottom: 64px;
+  transform: translateX(-50%);
+}
+
+.bigger {
+  transform: translateX(-50%) scale(1.5) !important;
+}
+
+

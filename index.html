@@ -16,6 +16,7 @@
     <script src="./js/editEntry.js"></script>
     <script src="./js/save-load.js"></script>
     <script src="./js/saveEditedEntry.js"></script>
+    <script src="./js/dragDrop.js"></script>
     <script src="./script.js"></script>
     <title>CRUD Demo App</title>
   </head>
@@ -36,5 +37,6 @@
     <section id="sidebar">
       <!--Rendered Content-->
     </section>
+    <img id="trashBin" ondragleave="shrinkBin(this.id)" ondragover="allowDrop(event); growBin(this.id);" ondrop="removeElementFromArray(contacts, currentDraggedElement)" src="./img/delete.png" alt="">
   </body>
 </html>
